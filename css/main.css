@@ -1,0 +1,21 @@
+body {
+    background-color: #2c0c0d;
+    font-family: "mrs-eaves", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: aliceblue;
+    font-size: 40pt;
+}
+.Fields {
+    background-image: url("Fields.png");
+    position: absolute;
+    left: 101px;
+    top: 126px;
+    width: 631px;
+    height: 323px;
+    z-index: 2;
+  }
+  
+  
