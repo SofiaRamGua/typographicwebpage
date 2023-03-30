@@ -1,21 +1,47 @@
 body {
-    background-color: #2c0c0d;
-    font-family: "mrs-eaves", serif;
-    font-weight: 400;
+    background-color: #be1d1d;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
     font-style: normal;
+
+}
+.title {
+   transform: rotate(-10deg);
+   color: rgb(46, 5, 5);
+   font-size: 130pt; 
+   position: fixed;
+   top: 80pt;
+}
+.istay{
+    position: relative;
+    left: 40pt;
+}
+@keyframes color-change {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: yellow;}
+}
+.or{
+    position: relative;
+    left: 40pt;
+    bottom: 50pt;
+
+}
+.igo{
+    position: relative;
+    left: 190pt;
+    bottom: 170pt;
+
 }
 p{
-    color: aliceblue;
-    font-size: 40pt;
-}
-.Fields {
-    background-image: url("Fields.png");
+    color: rgb(249, 208, 208);
+    font-size: 70pt;
+    line-height: 1.5;
+    transform: rotate(0);
     position: absolute;
-    left: 101px;
-    top: 126px;
-    width: 631px;
-    height: 323px;
-    z-index: 2;
-  }
+    top: 400pt;
+    left: 400px;
+    margin: 0 auto;
+}
+
   
   
