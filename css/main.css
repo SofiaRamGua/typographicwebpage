@@ -17,22 +17,22 @@ body {
 .artist{
     font-style: oblique;
     color: #e3cece;
-    font-size: 90pt; 
+    font-size: 80pt; 
     position: fixed;
-    top: 250pt;
-    left: 1000pt; 
+    top: 260pt;
+    left: 900pt; 
     animation: sidemove 6s; 
     animation-iteration-count: infinite;
 }
 @keyframes sidemove {
     0% {
-      left: 1000pt;
+      left: 900pt;
     }
     50%{
-        left: 900pt
+        left: 800pt
     }
     100% {
-      left: 1000pt;
+      left: 900pt;
     }
  }
 
@@ -90,7 +90,7 @@ p{
     transform: rotate(0);
     position: absolute;
     top: 400pt;
-    left: 300px;
+    left: 170px;
     margin: 0 auto;
     animation: transparent-an 6s;
 }
@@ -186,9 +186,7 @@ p{
 
 
 
-
-
-@media screen and (max-width: 600px) {
+@media screen and  (max-width: 481px) and (max-width: 767px){
     p {
         color: rgb(0, 0, 0);
         line-height: 1.5;
@@ -275,8 +273,7 @@ p{
         margin: 0 auto;
         animation: shake 3s linear infinite;
         animation-play-state: paused;
-        
-        
+          
     }
     .now{
         color: #d81d1d;
