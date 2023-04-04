@@ -17,7 +17,7 @@ body {
 .artist{
     font-style: oblique;
     color: #e3cece;
-    font-size: 80pt; 
+    font-size: 40pt; 
     position: fixed;
     top: 260pt;
     left: 900pt; 
@@ -85,10 +85,10 @@ body {
 }
 p{
     color: rgb(0, 0, 0);
-    font-size: 70pt;
+    font-size: 50pt;
+    text-align: center;
     line-height: 1.5;
     transform: rotate(0);
-    position: absolute;
     top: 400pt;
     left: 170px;
     margin: 0 auto;
@@ -137,8 +137,8 @@ p{
 .tease-background {
     position: absolute;
     color: #d81d1d;
-    left: 370pt;
-    top: 640pt;
+    left: 500pt;
+    top: 460pt;
     transform: rotate(-5deg);
 }
 .tease { 
@@ -152,11 +152,9 @@ p{
 .last-p {
     height: 100%;
     color: rgb(0, 0, 0);
-    font-size: 70pt;
+    font-size: 50pt;
     line-height: 1.5;
-    transform: rotate(0);
-    position: absolute;
-    top: 1500pt;
+    top: 1150pt;
     left: 300px;
     margin: 0 auto;
     animation: shake 3s linear infinite;
@@ -175,10 +173,10 @@ p{
 }
 @keyframes shake {
     0%{
-        font-size: 50pt;
+        font-size: 30pt;
     }
     100%{
-       font-size: 70pt;
+       font-size: 50pt;
 
     }
 
@@ -289,7 +287,7 @@ p{
             font-size: 20pt;
         }
         100%{
-           font-size: 20pt;
+           font-size: 40pt;
     
         }
     
